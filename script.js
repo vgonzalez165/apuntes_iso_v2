@@ -1,70 +1,97 @@
-console.log("hola mundo");
+import {uts} from "./contents.js";
 
-const uts = [
-    {
-        number: "UT01",
-        title: "Teoría de Sistemas Operativos",
-        hours: 12,
-        folder: "ut01",
-    },
-    {
-        number: "UT02",
-        title: "Virtualización",
-        hours: 16,
-        folder: "ut02",
-    },
-    {
-        number: "UT03",
-        title: "Windows 10. Instalación y primeros pasos",
-        hours: 22,
-        folder: "ut03",
-    }
-]
+/*
 
-function showContent(x) {
-    console.log(x);
+<div class="uts">
+    <div class="ut">
+        <div class="ut-title">UTXX: TITULO DE LA UT</div>
+        <div class="ut-chapter-list">
+            <div class="ut_chapter">X. Título del apartado</div>
+            <div class="ut_chapter">Y. Título del apartado</div>
+            <div class="ut_chapter">Z. Título del apartado</div>
+        </div>
+    </div>
+    <div class="ut">
+        <div class="ut-title">UTXX: TITULO DE LA UT</div>
+        <div class="ut-chapter-list">
+            <div class="ut_chapter">X. Título del apartado</div>
+            <div class="ut_chapter">Y. Título del apartado</div>
+            <div class="ut_chapter">Z. Título del apartado</div>
+        </div>
+    </div>
+</div>
 
-    const converter = new showdown.Converter();
-    fetch('./uts/ut06/02_pipelines.md')
-        .then( (response) => {
-            return response.text();
+*/
+
+function generate_index() {
+    const sidebar = document.getElementById("sidebar");
+
+    uts.forEach( (ut) => {
+        const divUt = document.createElement('div');
+        divUt.classList.add("ut");
+        // Creamos el título
+        const divUtTitle = document.createElement('div');
+        divUtTitle.classList.add("ut-title");
+        divUtTitle.textContent = `${ut.number}: ${ut.title}`;
+        divUt.append(divUtTitle);
+        // Creamos el contenedor con los apartados
+        const divChapterList = document.createElement('div');
+        divChapterList.classList.add("ut-chapter-list");
+        // Creamos cada uno de los apartados
+        ut.contents.forEach( (chapter) => {
+            const divChapter = document.createElement('div');
+            divChapter.classList.add("ut-chapter");
+            divChapter.textContent = chapter.title;
+            divChapter.setAttribute('data-file', chapter.file);
+            divChapterList.append(divChapter);
         } )
-        .then( (md) => {
-            const c = converter.makeHtml(md);
-            const content = document.getElementById('content');
-            console.log(c);
-            content.innerHTML = c;
-        } )
-        .catch( (error) =  console.log(error) )
-
-
+        divUt.append(divChapterList);
+        sidebar.append(divUt);
+    } )
 }
 
 
-// Generamos el índice
-const uts_list = uts.map( (item) => {
-    const ut = document.createElement('a');
-    ut.href="#";
-    ut.textContent = `${item.number}: ${item.title}`
-    ut.setAttribute('data-folder', item.folder);
-    ut.onclick = function(e) {
-        showContent(e.target.dataset.folder);
-    }
-    return ut;
-} )
+generate_index();
 
 
-const sidebar = document.getElementById('sidebar');
-// Creamos la lista
-const ul = document.createElement('ul');
+// // Generamos el índice de UTs con sus apartados
+// const uts_list = uts.map( (item) => {
+//     const ut = document.createElement('a');
+//     ut.href="#";
+//     ut.textContent = `${item.number}: ${item.title}`;
+//     ut.setAttribute('data-folder', item.folder);
+//     ut.onclick = function(e) {
+//         showContent(e.target.dataset.folder);
+//     }
+//     return ut;
+// } )
 
-// Y la rellenamos
-uts_list.forEach( (item) => {
-    const li = document.createElement('li');
-    li.appendChild(item);
-    ul.appendChild(li);
-} )
 
-sidebar.appendChild(ul)
+// const sidebar = document.getElementById('sidebar');
+// // Creamos la lista
+// const ul = document.createElement('ul');
+
+// // Y la rellenamos
+// uts_list.forEach( (item) => {
+//     const li = document.createElement('li');
+//     li.appendChild(item);
+//     ul.appendChild(li);
+// } )
+
+// sidebar.appendChild(ul)
 
 
+// function showContent(x) {
+//     const converter = new showdown.Converter();
+//     fetch('./uts/ut06/02_pipelines.md')
+//         .then( (response) => {
+//             return response.text();
+//         } )
+//         .then( (md) => {
+//             const c = converter.makeHtml(md);
+//             const content = document.getElementById('content');
+//             console.log(c);
+//             content.innerHTML = c;
+//         } )
+//         .catch( (error) =  console.log(error) )
+// }

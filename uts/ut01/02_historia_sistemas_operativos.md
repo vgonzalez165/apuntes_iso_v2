@@ -1,21 +1,3 @@
----
-layout: default
-title: Historia de los Sistemas Operativos
-parent: UT01. Teoría de los Sistemas Operativos
-nav_order: 2
----
-
-# UT01: Teoría de los Sistemas Operativos
-{: .no_toc }
-
-## Índice
-{: .no_toc .text-delta }
-
-1. TOC
-{:toc}
-
----
-
 # 2.- Historia de los Sistemas Operativos
 
 La historia de los ordenadores se descompone en generaciones, que corresponden con grandes avances tecnológicos que han supuesto un punto de inflexión en su evolución. Estas generaciones han sido:

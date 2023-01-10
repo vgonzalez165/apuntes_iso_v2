@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+}
+
+body {
+    font-family: 'Arial Narrow', 'Franklin Gothic Medium', Arial, sans-serif;
+   }
+
+#container {
+    display: flex;
+    flex-direction: row;
+}
+
+#sidebar {
+    width: 400px;
+    background-color: cornsilk;
+}
+
+#content {
+    background-color: red;
+    min-height: 100vh;
+    width: 100%;
+}
+
+
+#sidebar .ut-title {
+    font-size: 1.2em;
+    font-weight: 800;
+}
+
+#sidebar .ut {
+    margin: 10px 20px;
+    
+}
+
+#sidebar .ut-chapter-list {
+    margin-left: 10px;
+}

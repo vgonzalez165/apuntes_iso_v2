@@ -1,21 +1,3 @@
----
-layout: default
-title: Clasificación de los Sistemas Operativos
-parent: UT01. Teoría de los Sistemas Operativos
-nav_order: 5
----
-
-# UT01: Teoría de los Sistemas Operativos
-{: .no_toc }
-
-## Índice
-{: .no_toc .text-delta }
-
-1. TOC
-{:toc}
-
----
-
 # 5.- Clasificación de los Sistemas Operativos
 
 Hay diversos métodos de clasificación de sistemas operativos en función del aspecto en que nos fijemos. Hay que tener en cuenta también que muchas clasificaciones se han ido diluyendo a lo largo del tiempo habiendo una separación muy difusa entre las diferentes categorías.

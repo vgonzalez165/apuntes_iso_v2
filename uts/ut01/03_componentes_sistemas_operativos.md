@@ -1,21 +1,3 @@
----
-layout: default
-title: Componentes de un Sistema Operativo
-parent: UT01. Teoría de los Sistemas Operativos
-nav_order: 3
----
-
-# UT01: Teoría de los Sistemas Operativos
-{: .no_toc }
-
-## Índice
-{: .no_toc .text-delta }
-
-1. TOC
-{:toc}
-
----
-
 # 3.- Componentes de un Sistema Operativo
 
 Por norma general, se suele considerar que un sistema operativo está formado por tres capas: el núcleo o kernel, los servicios del sistema operativo y el intérprete de mandatos o Shell.

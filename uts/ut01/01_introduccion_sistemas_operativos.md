@@ -1,21 +1,3 @@
----
-layout: default
-title: Introducción a los Sistemas Operativos
-parent: UT01. Teoría de los Sistemas Operativos
-nav_order: 1
----
-
-# UT01: Teoría de los Sistemas Operativos
-{: .no_toc }
-
-## Índice
-{: .no_toc .text-delta }
-
-1. TOC
-{:toc}
-
----
-
 # 1.- Introducción a los sistemas operativos
 
 Un **sistema operativo** es un programa que controla la ejecución de los programas y actúa como interfaz entre el usuario de un computador y el hardware de este. 

@@ -1,21 +1,3 @@
----
-layout: default
-title: Arquitectura de los Sistemas Operativos
-parent: UT01. Teoría de los Sistemas Operativos
-nav_order: 4
----
-
-# UT01: Teoría de los Sistemas Operativos
-{: .no_toc }
-
-## Índice
-{: .no_toc .text-delta }
-
-1. TOC
-{:toc}
-
----
-
 # 4.- Arquitectura de los Sistemas Operativos
 
 Según su arquitectura los sistemas operativos pueden ser:
