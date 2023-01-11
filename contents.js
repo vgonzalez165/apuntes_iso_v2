@@ -198,5 +198,89 @@ export let uts = [
                 file: "10_miscelanea.md"
             }
         ],
+    },
+    {
+        number: "UT07",
+        title: "Windows Server. Administración del dominio",
+        hours: 22,
+        folder: "ut07",
+        contents: [
+            {
+                title: "Instalación de Windows Server",
+                file: "01_instalacion.md",
+            },
+            {
+                title: "Instalación Core",
+                file: "02_intalacion_core.md",
+            },
+            {
+                title: "Tareas de post-instalación",
+                file: "03_postinstalacion.md"
+            },
+            {
+                title: "Administración remota del servidor",
+                file: "04_admin_remota.md",
+            },
+            {
+                title: "Administración de discos en Windows Server",
+                file: "05_admin_discos.md"
+            },
+        ],
+    },
+    {
+        number: "UT08",
+        title: "Windows Server. Administración del dominio",
+        hours: 22,
+        folder: "ut08",
+        contents: [
+            {
+                title: "Active Directory",
+                file: "01_active_directory.md",
+            },
+            {
+                title: "Usuarios del dominio",
+                file: "02_usuarios_dominio.md",
+            },
+            {
+                title: "Carpetas personales",
+                file: "03_carpetas_personales.md"
+            },
+            {
+                title: "Carpetas compartidas de grupo",
+                file: "04_carpetas_compartidas_grupo.md",
+            },
+            {
+                title: "Perfiles de usuario en Active Directory",
+                file: "05_perfiles_usuarios.md"
+            },
+        ],
+    },
+    {
+        number: "UT09",
+        title: "Windows Server. Derechos, privilegios y permisos",
+        hours: 22,
+        folder: "ut09",
+        contents: [
+            {
+                title: "xxxx",
+                file: "01_active_directory.md",
+            },
+            {
+                title: "xxxxxxxxxxxx",
+                file: "02_usuarios_dominio.md",
+            },
+            {
+                title: "xxxxxxxxxxx",
+                file: "03_carpetas_personales.md"
+            },
+            {
+                title: "xxxxxxxxxxxx",
+                file: "04_carpetas_compartidas_grupo.md",
+            },
+            {
+                title: "xxxxxxxxxx",
+                file: "05_perfiles_usuarios.md"
+            },
+        ],
     }
 ]
