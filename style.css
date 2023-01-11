@@ -9,11 +9,13 @@ body {
 #container {
     display: flex;
     flex-direction: row;
+    width: 80vw;
+    margin: auto;
 }
 
 #sidebar {
-    width: 400px;
-    background-color: cornsilk;
+    min-width: 400px;
+    background-color: white;
 }
 
 #content {
@@ -26,6 +28,7 @@ body {
 #sidebar .ut-title {
     font-size: 1.2em;
     font-weight: 800;
+    color: #555;
 }
 
 #sidebar .ut {
@@ -35,4 +38,8 @@ body {
 
 #sidebar .ut-chapter-list {
     margin-left: 10px;
+}
+
+#sidebar .ut-chapter {
+    color: grey;
 }
