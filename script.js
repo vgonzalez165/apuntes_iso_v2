@@ -61,10 +61,8 @@ function generate_index() {
 
 function showChapter(url) {
 
-
-
-
 }
+
 
 function handleChapterClick(event) {
     const filename = event.target.dataset.file;
