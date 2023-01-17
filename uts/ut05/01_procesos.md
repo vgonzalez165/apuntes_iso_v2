@@ -1,10 +1,3 @@
----
-layout: default
-title: Gestión de procesos
-parent: UT05. Windows 10. Administración del sistema
-nav_order: 1
----
-
 # 1.- Gestión de procesos
 
 La gestión de procesos es una de las tareas más importantes del sistema operativo, ya que, a fin de cuentas, todo lo que ocurre en un ordenador son procesos y el fin último de un ordenador es precisamente ejecutar procesos.

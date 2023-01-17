@@ -1,10 +1,3 @@
----
-layout: default
-title: Active Directory
-parent: UT07. Windows Server. Administración del dominio
-nav_order: 1
----
-
 # 1.- Active Directory
 
 ## 1.1.- Introducción a Active Directory

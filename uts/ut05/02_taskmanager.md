@@ -1,10 +1,3 @@
----
-layout: default
-title: El administrador de tareas
-parent: UT05. Windows 10. Administración del sistema
-nav_order: 2
----
-
 # 2.- El administrador de tareas
 
 El **Administrador de tareas** es una herramienta de supervisión que permite controlar la actividad del sistema en tiempo real y visualizar la información del estado del procesador, de la memoria de las aplicaciones y de los procesos.

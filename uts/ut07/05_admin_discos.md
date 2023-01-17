@@ -1,10 +1,3 @@
----
-layout: default
-title: Administración de discos en Windows Server
-parent: UT07. Windows Server. Instalación
-nav_order: 5
----
-
 # 5.- Administración de discos en Windows Server
 
 Windows Server incluye una serie de herramientas que permiten administrar los discos tanto en un entorno gráfico como desde la línea de comandos. Todas las instalaciones incluyen por defecto el rol **Servicios de archivos y de *almacenamiento**, que permite trabajar con volúmenes, discos, grupos de almacenamiento, carpetas compartidas y dispositivos iSCSI.

@@ -1,5 +1,7 @@
 import {uts} from "./contents.js";
 
+const converter = new showdown.Converter();
+
 /*
 
 <div class="uts">
@@ -23,26 +25,32 @@ import {uts} from "./contents.js";
 
 */
 
+// Genera el índice a partir de los datos de contents.js
 function generate_index() {
     const sidebar = document.getElementById("sidebar");
 
     uts.forEach( (ut) => {
         const divUt = document.createElement('div');
         divUt.classList.add("ut");
+
         // Creamos el título
         const divUtTitle = document.createElement('div');
         divUtTitle.classList.add("ut-title");
         divUtTitle.textContent = `${ut.number}: ${ut.title}`;
         divUt.append(divUtTitle);
+
         // Creamos el contenedor con los apartados
         const divChapterList = document.createElement('div');
         divChapterList.classList.add("ut-chapter-list");
+
         // Creamos cada uno de los apartados
         ut.contents.forEach( (chapter) => {
             const divChapter = document.createElement('div');
             divChapter.classList.add("ut-chapter");
             divChapter.textContent = chapter.title;
             divChapter.setAttribute('data-file', chapter.file);
+            divChapter.setAttribute('data-ut', ut.folder)
+            divChapter.addEventListener( 'click', handleChapterClick )
             divChapterList.append(divChapter);
         } )
         divUt.append(divChapterList);
@@ -50,6 +58,35 @@ function generate_index() {
     } )
 }
 
+
+function showChapter(url) {
+
+
+
+
+}
+
+function handleChapterClick(event) {
+    const filename = event.target.dataset.file;
+    const ut = event.target.dataset.ut;
+    let divContent = document.getElementById('content');
+    const url = `./uts/${ut}/${filename}`;
+    console.log(url)
+
+
+
+    fetch(url)
+        .then( (response) => {
+            return response.text();
+        } )
+        .then( (md) => {
+            const htmlChapter = converter.makeHtml(md);
+            const content = document.getElementById('content');
+            content.innerHTML = htmlChapter;
+        } )
+        // .catch( (error) =  console.log(error) )
+ 
+}
 
 generate_index();
 

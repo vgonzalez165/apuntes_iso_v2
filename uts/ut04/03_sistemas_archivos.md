@@ -1,10 +1,3 @@
----
-layout: default
-title: Sistemas de archivos
-parent: UT04. Windows 10. Almacenamiento
-nav_order: 3
----
-
 # 2.- Sistemas de archivos
  
 El **sistema de archivos o ficheros** es el elemento que controla cómo se almacenan y recuperan los datos en cada partición. Cada partición puede contener un sistema de archivos diferente.

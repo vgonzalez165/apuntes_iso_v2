@@ -1,10 +1,3 @@
----
-layout: default
-title: El sistema de archivos NTFS
-parent: UT04. Windows 10. Almacenamiento
-nav_order: 4
----
-
 # 4.- El sistema de archivos NTFS
 
 Como hemos dicho, el sistema de archivos es el componente del sistema operativo encargado de gestionar los espacios de almacenamiento y la forma en que los archivos se guardan en ellos. Todos los sistemas operativos de Microsoft trabajan actualmente con NTFS, por lo que veremos en detalle su funcionamiento.

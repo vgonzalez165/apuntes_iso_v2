@@ -1,10 +1,3 @@
----
-layout: default
-title: Tareas de Post-Instalación
-parent: UT07. Windows Server. Instalación
-nav_order: 3
----
-
 # 3.- Tareas de post-instalación
 
 Una vez instalado el sistema hay una serie de tareas que debemos abordar. Entre estas tareas se encuentran:

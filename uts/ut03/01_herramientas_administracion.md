@@ -1,10 +1,3 @@
----
-layout: default
-title: Herramientas administrativas
-parent: UT03. Windows 10. Instalación
-nav_order: 1
----
-
 # 1.- Herramientas administrativas
 
 En versiones anteriores de Windows, prácticamente todas las opciones de configuración se encontraban en el **Panel de Control**, el cual era el punto de partida para realizar cualquier tarea administrativa que se deseara en el sistema, desde crear usuarios hasta configurar la conexión a la red. Sin embargo, en los últimos años Microsoft ha ido aligerando la funcionalidad de esta herramienta en detrimento de otras herramientas, principalmente en la denominada *Configuración*.

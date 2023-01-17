@@ -1,10 +1,3 @@
----
-layout: default
-title: Instalación de Windows Server
-parent: UT07. Windows Server. Instalación
-nav_order: 1
----
-
 # 1.- Instalación de Windows Server
 
 ## 1.1.- Introducción

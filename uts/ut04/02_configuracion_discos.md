@@ -1,10 +1,3 @@
----
-layout: default
-title: Configuración de discos en Windows
-parent: UT04. Windows 10. Almacenamiento
-nav_order: 2
----
-
 # 3.- Configuración de discos en Windows
 
 Al instalar Windows 10 en un equipo se realizan de forma automática todas las tareas de preparación del disco donde va a instalarse el sistema operativo. Sin embargo, cuando se añaden discos adicionales en el equipo hay una serie de tareas que deberán realizarse manualmente:

@@ -1,10 +1,3 @@
----
-layout: default
-title: Introducción
-parent: UT06. Powershell
-nav_order: 1
----
-
 # 1.- Introducción
 
 ## 1.1.- Conceptos importantes de Windows Powershell

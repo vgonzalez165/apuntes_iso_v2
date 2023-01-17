@@ -1,10 +1,3 @@
----
-layout: default
-title: Panel de control. Sistema
-parent: UT03. Windows 10. Instalación
-nav_order: 2
----
-
 # 2.- Panel de control. Sistema
 
 La primera opción del *Panel de control* es **Sistema y seguridad**, que muestra información general del sistema y además proporciona acceso a otros diálogos de administración. Veamos todo lo que podemos hacer desde aquí.

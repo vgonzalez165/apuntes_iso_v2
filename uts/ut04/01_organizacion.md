@@ -1,10 +1,3 @@
----
-layout: default
-title: Organización del almacenamiento
-parent: UT04. Windows 10. Almacenamiento
-nav_order: 1
----
-
 # 1.- Organización del almacenamiento
 
 En esta unidad de trabajo estudiaremos cómo se organizan los sistemas de almacenamiento en un ordenador, es decir, la forma en la que los sistemas operativos operan con los discos duros y los organizan para poder almacenar datos en ellos.

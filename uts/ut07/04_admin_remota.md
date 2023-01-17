@@ -1,10 +1,3 @@
----
-layout: default
-title: Administración remota del servidor
-parent: UT07. Windows Server. Instalación
-nav_order: 4
----
-
 # 4.- Administración remota del servidor
 
 ## 4.1.- Administración remota desde RSAT

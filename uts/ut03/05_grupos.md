@@ -1,10 +1,3 @@
----
-layout: default
-title: Gestión de grupos en Windows
-parent: UT03. Windows 10. Instalación
-nav_order: 5
----
-
 # 5.- Gestión de grupos en Windows
 
 Los grupos son otro de los denominados **principales de seguridad** de Windows, y, al igual que sucedía con los usuarios, son una parte fundamental en las tareas de administración del sistema, permitiendo asignar permisos y derechos a conjuntos de usuarios en lugar de hacerlo individualmente.

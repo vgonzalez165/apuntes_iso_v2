@@ -1,21 +1,3 @@
----
-layout: default
-title: Conceptos básicos de virtualización
-parent: UT02. Virtualización
-nav_order: 1
----
-
-# UT02: Virtualización
-{: .no_toc }
-
-## Índice
-{: .no_toc .text-delta }
-
-1. TOC
-{:toc}
-
----
-
 # 1. Conceptos básicos de virtualización
 
 ## 1.1.- Definición de máquina virtual

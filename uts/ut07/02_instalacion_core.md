@@ -1,10 +1,3 @@
----
-layout: default
-title: Instalación Core
-parent: UT07. Windows Server. Instalación
-nav_order: 2
----
-
 # 2.- Instalación Core
 
 Una decisión que hay que tomar en la instalación es si instalar la versión con entorno gráfico o si es suficiente con la versión **Server Core** en línea de comandos. Hay que tener en cuenta que muchos servidores están dedicados a un rol particular y un entorno gráfico únicamente sirve para consumir recursos sin aportar ninguna ventaja.  

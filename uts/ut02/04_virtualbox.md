@@ -1,21 +1,3 @@
----
-layout: default
-title: Oracle VirtualBox
-parent: UT02. Virtualización
-nav_order: 4
----
-
-# UT02: Virtualización
-{: .no_toc }
-
-## Índice
-{: .no_toc .text-delta }
-
-1. TOC
-{:toc}
-
----
-
 # 4.- Oracle VirtualBox
 
 ## 4.1.- Introducción a VirtualBox

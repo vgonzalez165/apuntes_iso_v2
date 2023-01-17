@@ -1,10 +1,3 @@
----
-layout: default
-title: Carpetas personales en Active Directory
-parent: UT07. Windows Server. Administración del dominio
-nav_order: 3
----
-
 # 3.- Carpetas personales en Active Directory
 
 Comenzando ya con las tareas básicas de administración de Active Directory, la primera que abordaremos será la creación de **carpetas personales** para los usuarios. Estas carpetas permitirán al usuario disponer de un espacio de almacenamiento accesible desde cualquier ubicación de la red a través de una unidad de red.

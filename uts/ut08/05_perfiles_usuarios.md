@@ -1,10 +1,3 @@
----
-layout: default
-title: Perfiles de usuario en Active Directory
-parent: UT07. Windows Server. Administración del dominio
-nav_order: 5
----
-
 # 5.- Perfiles de usuario en Active Directory
 
 ## 5.1.- Perfiles de usuario

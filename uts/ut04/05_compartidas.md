@@ -1,10 +1,3 @@
----
-layout: default
-title: Carpetas compartidas
-parent: UT04. Windows 10. Almacenamiento
-nav_order: 5
----
-
 # 5.- Carpetas compartidas
 
 Windows permite compartir carpetas locales a través de la red con otros equipos mediante las **carpetas compartidas**.

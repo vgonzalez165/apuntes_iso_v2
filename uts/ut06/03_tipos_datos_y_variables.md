@@ -1,10 +1,3 @@
----
-layout: default
-title: Tipos de datos y variables
-parent: UT06. Powershell
-nav_order: 3
----
-
 # 3.- Tipos de datos y variables
 
 Por lo que hemos visto hasta ahora, la estructura de los comandos de Powershell es la siguiente:

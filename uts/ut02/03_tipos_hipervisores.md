@@ -1,21 +1,3 @@
----
-layout: default
-title: Tipos de hipervisores
-parent: UT02. Virtualización
-nav_order: 3
----
-
-# UT02: Virtualización
-{: .no_toc }
-
-## Índice
-{: .no_toc .text-delta }
-
-1. TOC
-{:toc}
-
----
-
 # 3.- Tipos de hipervisores
 
 La solución software que permite crear máquinas virtuales se denomina **hipervisor**. Hay multiples hipervisores, pero en general se pueden dividir en dos grandes grupos:

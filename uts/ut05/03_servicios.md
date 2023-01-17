@@ -1,10 +1,3 @@
----
-layout: default
-title: Servicios
-parent: UT05. Windows 10. Administración del sistema
-nav_order: 3
----
-
 # 3.- Servicios
 
 En UNIX y en Linux, estos programas se llaman **demonios**, y en Windows, se llaman **Servicios**. Son programas que pueden iniciarse automáticamente cuando se inicia Windows y proporcionan alguna función esencial, dando, como su nombre indica, algún servicio a los usuarios.

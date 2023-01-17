@@ -1,10 +1,3 @@
----
-layout: default
-title: Carpetas compartidas por un grupo
-parent: UT07. Windows Server. Administración del dominio
-nav_order: 4
----
-
 # 4.- Carpetas compartidas por un grupo
 
 Vamos a crear una carpeta que en esta ocasión estará compartida por un grupo de usuarios.

@@ -1,10 +1,3 @@
----
-layout: default
-title: Directivas de grupo local
-parent: UT05. Windows 10. Administración del sistema
-nav_order: 7
----
-
 # 7.- Directivas de grupo local
 
 ## 7.1.- Introducción

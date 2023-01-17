@@ -1,10 +1,3 @@
----
-layout: default
-title: Panel de control. Otras opciones
-parent: UT03. Windows 10. Instalación
-nav_order: 3
----
-
 # 3.- Panel de control. Otras opciones
 
 ## 3.1.- Opciones de energía

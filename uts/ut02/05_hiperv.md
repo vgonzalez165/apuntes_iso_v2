@@ -1,21 +1,3 @@
----
-layout: default
-title: Microsoft Hyper-V
-parent: UT02. Virtualización
-nav_order: 5
----
-
-# UT02: Virtualización
-{: .no_toc }
-
-## Índice
-{: .no_toc .text-delta }
-
-1. TOC
-{:toc}
-
----
-
 # 5. Microsoft Hyper-V
 
 ## 5.1.- Habilitar Hyper-V en Windows 10
